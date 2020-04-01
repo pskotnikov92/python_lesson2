@@ -22,11 +22,12 @@ x = 0
 for i in range(10):
     var = var + 1
     print("Введите число № " + str(var))
-    input()
-    if input == 5:
+    z = int(input())
+    if z == 5:
         x = x + 1
 print(x)
 '''
+
 
 '''
 Задача 3
